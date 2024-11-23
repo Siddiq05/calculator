@@ -31,10 +31,7 @@ Arraybutton.forEach(btn => {
 })
 
 
-let a,b,c;
-a=10; b=2;
-c=a%b;
-console.log(a%b);
+
 
 
  
