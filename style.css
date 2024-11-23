@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(340deg, #6c6a6a, #111010, #3c3a3a);
+    height: 100vh;
+}
+.main{
+    height: 60vh;
+    width: 80%;
+    background: #4a4a4a9c;
+    border-radius: 30px;
+    margin: 10%;
+    padding: 5% 0px;
+   
+}
+.Itext{
+    margin: 5%;
+    width: 90%;
+    height: 20%;
+    border-radius: 10px;
+    text-align: right;
+    padding-right: 5%;
+    border: none;
+}
+button{
+    width: 20%;
+    height: 5vh;
+    border-radius: 15px;
+    border: none;
+    font-size: large;
+}
+.con{
+    margin: 0 5%;
+    height: 15%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.AC,
+.DEL{
+color: #f55b2ceb;
+}
+.eql{
+    background-color:#f55b2ceb;
+    color: white;
+}
+.Itext::placeholder{
+    font-size: large;
+}
+
+@media screen and (min-width: 768px){
+    .main {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .main {
+        height: 80vh;
+        width: 40%;
+        margin: 5%;
+        padding: 20px;
+    }
+}
